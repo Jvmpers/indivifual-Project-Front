@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import style from "./razas.module.css";
-export default function Razas(props) {
+import style from "./Dogs.module.css";
+export default function Dogs(props) {
 
   /*   const { ID, Nombre, Peso, Temperamento, Imagen } = props.data; */
 

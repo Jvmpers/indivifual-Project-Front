@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getAllRazas, getAllTemperaments } from '../../Redux/Action';
 import FilterC from '../FilterC';
 import FilterT from '../FilterT';
-import ListaRazas from '../ListaRazas';
+import ListDogs from '../ListDogs';
 import Orden from '../Orden';
 import style from "./home.module.css";
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
     <label className={style.filters} >Temperaments:</label>
     <FilterT/>
     </div> 
-     <div key={8932}><ListaRazas filterRazas={filterRazas3} /></div> 
+     <div key={8932}><ListDogs filterRazas={filterRazas3} /></div> 
      </section>
   )
 }

@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { getAllRazas } from '../../Redux/Action';
 import Paginado from '../Paginado';
-import Razas from '../Razas';
-import style from "./listarazas.module.css";
-export default function ListaRazas({ filterRazas }) {
+import Dogs from '../Dogs';
+import style from "./ListDogs.module.css";
+export default function ListDogs({ filterRazas }) {
 
   const [paginaactual, setPaginaActual] = useState(1);
   const [postporpag] = useState(8);
@@ -27,19 +27,17 @@ export default function ListaRazas({ filterRazas }) {
       <h1>Cargando...</h1> </div>
   } else {
     return (
-      <>
-        <div className={style.container}>
-          <Razas data={postActual} />
+      <div className={style.containerList}>
+        <div className={style.containerDogs}>
+          <Dogs data={postActual} />
         </div>
-        <div>
           <Paginado
             postporpag={postporpag}
             totalRazas={filterRazas.length}
             paginado={paginado}
             paginaActual={paginaactual}
           />
-        </div>
-      </>
+      </div>
 
     )
   }

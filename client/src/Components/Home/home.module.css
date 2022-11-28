@@ -19,6 +19,7 @@
     border: 2px solid #000;
     border-top: none;
     border-radius: 0  0  1rem 1rem;
+    z-index: 1;
 }
 .filters{
     color:#6A8532;
