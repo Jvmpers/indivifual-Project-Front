@@ -1,0 +1,54 @@
+*{
+    
+    margin:0;
+    padding:0
+}
+.conteiner{
+    background-color: #F3D5B5;
+    height: 94vh;
+    text-align: center;
+}
+.nav{
+    padding:0;
+}
+.img{
+    max-width: 600px;
+    max-height: 100%;
+    border-radius: 60px;
+    border: 10px solid #A47148;
+}
+.titulo{
+    font-size: 40px;
+    font-weight:bolder;
+    border-bottom: 4px solid #A47148;
+}
+.datode{
+    font-size: 25px;
+}
+.numero{
+    font-size:20px;
+    padding: 4px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    border: 2px solid #603808;
+    background-color: #FFEDD8;
+    color:#603808;
+}
+.a{
+    color:#583101;
+    margin: 10px;
+    font-size: 21px;
+    display: inline-flex;
+}
+
+.temperamentos{
+    font-size:20px;
+    padding: 4px;
+    display: inline-flex;
+    margin: 5px;
+    justify-content: center;
+    border: 2px solid #603808;
+    background-color: #FFEDD8;
+    color:#603808;
+}

@@ -1,0 +1,28 @@
+ .barra{
+    padding: 15px;
+    background-color: #E7BC91;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.divFilters{
+    position: fixed;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%);
+    top: 9vh;
+    padding: 15px;
+    background-color: #F3C053;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-top: none;
+    border-radius: 0  0  1rem 1rem;
+}
+.filters{
+    color:#6A8532;
+    font-size: 20px;
+    margin:0 1rem;
+    
+} 

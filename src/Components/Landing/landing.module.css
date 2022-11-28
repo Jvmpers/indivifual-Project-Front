@@ -1,0 +1,91 @@
+.background{
+    position: fixed;
+    width: 100vw;
+    min-height:100vh;
+    background-image: url(./pexels-caio-69371.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .photoDog{
+    background-image: url(./pexels-ivan-samkov-6291567-removebg-preview.png);
+    position: absolute;
+    right: 20vh;
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+} */
+
+.navLanding{
+    /*  background-color: #87A330; */
+ /*     box-shadow: 0px 0px 100px red;  */
+  /*    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+      */height: 9vh;
+     display: flex;
+     background:transparent;
+     background-repeat: no-repeat;
+     background-size: cover;
+/*     border-bottom:2px solid #000; */
+     box-shadow: 0px 0px 10px black;
+ /*     justify-content: space-between; */
+     width: 100vw;
+     position: fixed;
+     justify-content: right;
+     z-index: 2;
+   }
+   .turnBackNav{
+ /*     background-color: aliceblue; */
+     height: 100%;
+     display: flex;
+     align-items: center;
+     width: 10vw;
+ /*     background-color: aqua; */
+   }
+
+
+ .optionsNav{
+ /*     background-color: aliceblue; */
+     height: auto;
+     display: flex;
+     width: 40vw;
+     align-items: center;
+     justify-content: space-evenly;
+ /*     background-color: #EB5E28; */
+ }
+ .linkNav{
+     font-size: 30px;
+     text-decoration: none;
+     color:  #3e4e1d;
+     font-weight: 500;
+     transition-duration: 0.5s;
+     
+ }
+ .arrowNav:hover{
+     color:#6A8532;
+     cursor: pointer;
+ }
+ 
+ .linkNav:hover{
+     color: #6A8532;
+     cursor: pointer;
+ }
+
+ @media (max-width:1200px) {
+    .background{
+        background-position: center;
+    }
+ }
+
+ @media (max-width:600px) {
+    .background{
+       background-image: url("./pexels-sergio-souza-3198013.jpg");
+    }
+    .navLanding{
+        bottom: 0px;
+      }
+    .optionsNav{
+        width: 100%;
+    }
+    .linkNav{
+        font-size: 25px;
+    }
+ }

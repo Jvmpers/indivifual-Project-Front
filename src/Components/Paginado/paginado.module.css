@@ -1,0 +1,29 @@
+.ulP{
+    list-style: none;
+}
+.divP{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #8B5E34;
+    border-top: 4px solid #603808;
+}
+
+.botonP{
+    font-size:20px;
+    color:white;
+    padding: 0 3px;
+    background: #BC8A5F;
+}
+.botonA{
+    font-size:20px;
+    color:white;
+    padding: 0 3px;
+    background: #8B5E34;
+}
+.botonP:hover{
+    /* border-bottom: 2px solid #8B5E34; */
+    background-color: #8B5E34;
+    cursor: pointer;
+    /* text-decoration:double; */
+  }
