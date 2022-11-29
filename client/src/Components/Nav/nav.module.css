@@ -36,7 +36,7 @@
     position: fixed;
     width: 100vw;
     min-height:100vh;
-    background-image:url("./pexels-karolina-grabowska-4039781.jpg");
+    background-image:url("./pexels-karolina-grabowska-7193631.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -47,10 +47,10 @@
  /*    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
      */height: 9vh;
     display: flex;
-    background-image:url("./pexels-karolina-grabowska-4039781.jpg");
+    background-image:url("./pexels-karolina-grabowska-7193631.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px #000;
 /*     justify-content: space-between; */
     width: 100vw;
     position: fixed;
@@ -68,7 +68,7 @@
 
     margin-left: 1vw;
     font-size: 30px;
-    color:  #87A330 ;
+    color:  #000 ;
 }
 .searchDivNav{
     display: flex;
@@ -90,7 +90,7 @@
 .linkNav{
     font-size: 30px;
     text-decoration: none;
-    color:  #87A330;
+    color:  #000;
     font-weight: 500;
     transition-duration: 0.5s;
     
@@ -125,7 +125,7 @@
         
             margin-left: 1vw;
             font-size: 30px;
-            color:  #87A330 ;
+            color:  #000 ;
         }
         .searchDivNav{
             display: flex;

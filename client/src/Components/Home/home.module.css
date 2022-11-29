@@ -1,6 +1,6 @@
  .barra{
     padding: 15px;
-    background-color: #E7BC91;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     transform: translate(-50%);
     top: 9vh;
     padding: 15px;
-    background-color: #F3C053;
+    background-color: #495057;
     display: flex;
     justify-content: center;
     border: 2px solid #000;
@@ -22,8 +22,27 @@
     z-index: 1;
 }
 .filters{
-    color:#6A8532;
+    color:#fff;
     font-size: 20px;
     margin:0 1rem;
     
 } 
+@media (max-width:650px) {
+.divFilters{
+    position: fixed;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%);
+    top: auto;
+    bottom: 9vh;
+    padding: 15px;
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-top: none;
+    border-radius: 0  0  1rem 1rem;
+    z-index: 1;
+}
+    
+}

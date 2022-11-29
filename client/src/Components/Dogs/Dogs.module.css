@@ -18,37 +18,31 @@
 
 }
 .conteiner{
-
-    background-color: #D4A276;
-    text-align: center;
-    border:3px solid #603808;
-    border-radius: 30px;
+/*     border: 2px solid #87A330; */
+  border-radius: 0 0 2rem 2rem;
     margin: 20px;
-    width: 18rem;
+    width: 20rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
 }
 .titulo{
-    font-size: 20px;
+    font-size: 24px;
     font-weight:bolder;
-    color: #603808;
-    border-bottom: 4px solid #A47148;
+    color:#000;
 }
 .datode{
     font-size: 25px;
 }
 .divs{
     display:flex;
-    justify-content: center;
     gap: 16px;
     padding: 5px;
     flex-wrap: wrap;
 }
 .inputs{
     font-size: 16px;
-    color:#8B5E34;
+    color:#000;
     background: #FFEDD8;
 }
 /*  .numero{
@@ -62,24 +56,33 @@
     color:#603808;
 } */
 .to{
-    color:#603808;
-    font-size: 17px;
+    color:#000;
+    font-size: 18px;
+    font-weight: 600;
     display: inline-flex;
 } 
 
 .temperamentos{
-    font-size:13px;
+    font-size:18px;
     padding: 4px;
     margin: 0px;
     justify-content: center;
-    border: 2px solid #603808;
-    background-color: #FFEDD8;
-    color:#603808;
+/*     background-color: #87A330; */
+    color:#000;
     border-radius: 2px;
 }
-.imagen{
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 60px;
-    border: 2px solid #A47148;
+.divImage{
+    width: 100%;
+    height: 20rem;
+    height: width;
+    background-color: #A47148;
+    display: flex;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+/*     max-width: 200px;
+    border-radius: 60px; */
+/*     border: 2px solid #A47148;  */
 }

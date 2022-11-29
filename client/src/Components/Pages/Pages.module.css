@@ -27,3 +27,8 @@
     cursor: pointer;
     /* text-decoration:double; */
   }
+  @media (max-width:650px) {
+    .divP{
+margin-bottom: 20vh;
+      }
+  } 

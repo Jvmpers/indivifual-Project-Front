@@ -1,6 +1,12 @@
 .containerList{
 /*   display: flex; */
   position: absolute;
-  top: 20vw;
-  background-color: aqua;
+  top: 20vh;
+/*   background-color: aqua; */
 }
+ @media (max-width:650px) {
+  .containerList{
+    position: relative;
+    top: auto;
+    }
+} 
