@@ -4,8 +4,8 @@
     padding:0
 }
 .conteiner{
-    background-color: #F3D5B5;
-    height: 94vh;
+    background-color: transparent;
+    height: 100vh;
     text-align: center;
 }
 .nav{
@@ -15,12 +15,10 @@
     max-width: 600px;
     max-height: 100%;
     border-radius: 60px;
-    border: 10px solid #A47148;
 }
 .titulo{
     font-size: 40px;
     font-weight:bolder;
-    border-bottom: 4px solid #A47148;
 }
 .datode{
     font-size: 25px;

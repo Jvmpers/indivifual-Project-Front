@@ -7,9 +7,9 @@
 
 @media (max-width:650px) {
     .selectC{
-        font-size: 15px;
-        color:#495057;
-        background: #fff;
-        border-radius: 3px;
+        font-size: 16px;
+        color:#fff;
+        background: transparent;
+        border: none;
     }
 }
