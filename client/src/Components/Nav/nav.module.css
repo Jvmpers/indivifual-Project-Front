@@ -1,37 +1,4 @@
-/* *{
-    margin:0;
-    padding:0
-}
-.conteiner{
-    background-color: #6F4518;
-}
-.conteinerNav{
-    background-color: green;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
-    height: 10vh;
-}
-.nav{
-    padding:0;
-    border-bottom: 5px solid #583101;
-}
 
-.ilnav{
-    padding: 16px;
-    margin:0 64px;
-    color:azure;
-    margin-right:20px;
-    display: inline-flex;
-}
-.Link{
-    font-size:20px;
-    color:azure;
-    text-decoration: none;
-}
-.ilnav:hover{
-    border-bottom: 2px solid #8B5E34;
-    background-color: #8B5E34;
-     text-decoration:double; 
-  } */
   .background{
     position: fixed;
     width: 100vw;
@@ -54,7 +21,7 @@
 /*     justify-content: space-between; */
     width: 100vw;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
   }
   .turnBackNav{
 /*     background-color: aliceblue; */
@@ -105,21 +72,17 @@
     cursor: pointer;
 }
 
-@media (max-width:600px) {
-
+@media (max-width:650px) {
     .containerNav{
-
         flex-wrap: wrap;
         bottom: 0px;
         background-position: bottom;
       }
       .turnBackNav{
-        /*     background-color: aliceblue; */
             height: 100%;
             display: flex;
             align-items: center;
             width: 10vw;
-        /*     background-color: aqua; */
           }
         .arrowNav{
         
@@ -132,7 +95,7 @@
             position: fixed;
             bottom:10vh;
             width: 100vw;
-            
+            z-index: 2;
         /*     background-color: #EB5E28; */
             height: 5vh;
             align-items: center; 

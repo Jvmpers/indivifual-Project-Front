@@ -31,12 +31,12 @@ export default function ListDogs({ filterRazas }) {
         <div className={style.containerDogs}>
           <Dogs data={postActual} />
         </div>
-          <Pages
+{/*           <Pages
             postPerPage={postPerPage}
             allDogs={filterRazas.length}
             pages={pages}
             currentPage={currentPage}
-          />
+          /> */}
       </div>
 
     )

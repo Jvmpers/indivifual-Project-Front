@@ -35,7 +35,7 @@
     color:#EB5E28;
     /* text-decoration:double; */
   }
-  @media (max-width:600px) {
+  @media (max-width:650px) {
     .searchInput{
         margin-left: 10vw;
     }
