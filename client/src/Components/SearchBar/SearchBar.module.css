@@ -5,7 +5,7 @@
     background-color: aliceblue;
 } */
 .searchInput{
-    font-size: 20px;
+    font-size: 25px;
     color:#000;
     font-weight: 550;
     background: transparent;
@@ -15,7 +15,10 @@
     height: 50%;
     flex-grow:2;
     outline: 0px;
-    
+    padding: 0 1rem;
+}
+.searchInput::placeholder{
+    color: #000;
 }
 .searchInput:hover{
     outline: 1px ;
@@ -37,10 +40,16 @@
   }
   @media (max-width:650px) {
     .searchInput{
-        margin-left: 10vw;
+        background-color: #adb5bd;
+        border-radius:5px;
+        font-size: 15px;
+        height: 75%;
+        width: 100%;
+        flex-grow:0;
     }
     .searchButton{
-        margin-right: 10vw;
+        font-size:15px;
+      
     }
 
 }

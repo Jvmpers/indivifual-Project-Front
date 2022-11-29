@@ -4,9 +4,9 @@
     background: #fff;
     border-radius: 3px;
 }
-@media (max-width:650) {
+@media (max-width:650px) {
     .selectT{
-        font-size: 10px;
+        font-size: 15px;
         color:#495057;
         background: #fff;
         border-radius: 3px;

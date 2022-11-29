@@ -4,3 +4,12 @@
     background: #fff;
     border-radius: 3px;
 }
+
+@media (max-width:650px) {
+    .selectO{
+        font-size: 15px;
+        color:#495057;
+        background: #fff;
+        border-radius: 3px;
+    }
+}

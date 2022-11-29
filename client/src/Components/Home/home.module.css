@@ -9,22 +9,26 @@
 .divFilters{
     position: fixed;
     width: auto;
+    padding: 15px;
     left: 50%;
     transform: translate(-50%);
     top: 9vh;
-    padding: 15px;
     background-color: #495057;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border: 2px solid #000;
     border-top: none;
     border-radius: 0  0  1rem 1rem;
     z-index: 3;
 }
+.filterSection{
+    display: flex;
+
+}
 .filters{
     color:#fff;
     font-size: 20px;
-
 } 
 .smallFilters{
     display: none;
@@ -34,6 +38,8 @@
 }
 @media (max-width:650px) {
 .divFilters{
+    height: 10vh;
+    padding: 0px;
     width: 100%;
     box-sizing:border-box;
     left: auto;
@@ -49,27 +55,32 @@
     z-index: 4;
 
 }
-.filterSection{
-    background-color: green;
-    display: flex;
-    flex-direction: column;
 
-}
 .filters{
     display: none;
 } 
+.filterSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .smallFilters{
     display: flex;
-    font-size: 20px;
+    color: #fff;
+    font-size: large;
     text-align: center;
+    align-items: center;
 } 
 .searchDivNav{
     display: flex;
     position: fixed;
-    bottom:15vh;
-    width: 100vw;
+    bottom:19vh;
+    width: 90vw;
+    left: 50%;
+    transform: translate(-50% , 0 );
     z-index: 3;
-/*     background-color: #EB5E28; */
+/*    background-color: #EB5E28;  */
     height: 5vh;
     align-items: center; 
     flex-direction:row;
