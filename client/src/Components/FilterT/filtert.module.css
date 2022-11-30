@@ -11,4 +11,7 @@
         background: transparent;
         border: none;
     }
+    .selectT option{
+        color: #495057;
+    }
 }

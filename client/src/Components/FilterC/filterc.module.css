@@ -12,4 +12,7 @@
         background: transparent;
         border: none;
     }
+    .selectC option{
+        color: #495057;
+    }
 }
