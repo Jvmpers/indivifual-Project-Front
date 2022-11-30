@@ -1,0 +1,85 @@
+*{
+    
+    margin:0;
+    padding:0
+}
+.conteiner{
+     background-color:rgba(255, 255, 255, 0.3); 
+    width: 80%;
+    margin: 0 auto;
+/*     box-shadow: 0px 0px 5px #fff; */
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+/*     align-items: center; */
+}
+.nav{
+    padding:0;
+    
+}
+.divImage{
+    margin: auto;
+/*     display: flex; */
+box-shadow: 0px 0px 2px #000;
+    width: 70%;
+    max-height: 60%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.img{
+    object-fit:contain;
+    width:100%; height:100%;
+}
+.divTitle{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight:bolder;
+}
+
+.description{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap:1rem;
+    background-color: #dee2e6;
+    border-radius: 2rem;
+    height: 30%;
+    justify-content: center;
+    padding-left: 1rem;
+    box-sizing:border-box;
+}
+.subDescription{
+    display: flex;
+    gap: 1rem;
+    
+}
+.datode{
+    margin: auto  0;
+    font-size: 25px;
+}
+.numero{
+    margin: auto  0;
+    font-size:22px;
+}
+.a{
+    margin: auto  0;
+    font-size: 22px;
+    display: inline-flex;
+}
+
+.temperamentos{
+    font-size:22px;
+    padding: 4px;
+    display: inline-flex;
+    margin: 5px;
+    justify-content: center;
+    color:#000;
+}

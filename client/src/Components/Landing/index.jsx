@@ -14,8 +14,8 @@ export default function Landing() {
        <div className={style.searchDivNav}>
     </div>
     <div className={style.optionsNav}>
-      <Link className={style.linkNav} to="/perros" >Home</Link> 
-      <Link className={style.linkNav} to="/perros/crear" >Create</Link>   
+      <Link className={style.linkNav} to="/dogs" >Home</Link> 
+      <Link className={style.linkNav} to="/dogs/create" >Create</Link>   
       </div>
   </nav>
     <div className={style.background}>

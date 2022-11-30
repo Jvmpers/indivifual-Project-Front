@@ -10,7 +10,7 @@ export default function Dogs(props) {
     <div className={style.listado}>
       <ul className={style.uls}>
         {props.data.map(e => (
-          <Link className={style.link} to={`/perros/${e.ID}`}>
+          <Link className={style.link} to={`/dogs/${e.ID}`}>
             <div className={style.conteiner} >
               <div className={style.divImage}>
                 <img className={style.image} src={e.Imagen.length?e.Imagen:"https://static.vecteezy.com/system/resources/thumbnails/006/720/668/small/dog-face-logo-free-vector.jpg"} alt="" />
@@ -21,7 +21,7 @@ export default function Dogs(props) {
               </div>
 
               <div className={style.divs}>
-                <p className={style.titulo} to={`/perros/${e.ID}`} >{e.Nombre}</p>
+                <p className={style.titulo} to={`/dogs/${e.ID}`} >{e.Nombre}</p>
               </div>
               <div className={style.divs}>
                 <p className={style.to}  >Weight {e.Peso.Min} to {e.Peso.Max}</p>

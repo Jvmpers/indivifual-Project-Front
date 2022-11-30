@@ -1,24 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory} from 'react-router-dom'
 import style from "./nav.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft} from "@fortawesome/free-solid-svg-icons";
 import SearchBar from '../SearchBar';
 export default function Nav() {
+  const history = useHistory();
   return (
     <>
     <nav className={style.containerNav}>
       <div>
         <div className={style.turnBackNav}>
-        <Link className={style.arrowNav} to="/" ><FontAwesomeIcon  icon={faArrowLeft} /></Link>    
+        <div    onClick={history.goBack}    className={style.arrowNav} ><FontAwesomeIcon  icon={faArrowLeft} /></div>    
         </div>
        </div>
        <div className={style.searchDivNav}>
       <SearchBar/>
     </div>
       <div className={style.optionsNav}>
-      <Link className={style.linkNav} to="/perros" >Home</Link> 
-      <Link className={style.linkNav} to="/perros/crear" >Create</Link>   
+      <Link className={style.linkNav} to="/dogs" >Home</Link> 
+      <Link className={style.linkNav} to="/dogs/create" >Create</Link>   
       </div>
   </nav>
   <div className={style.background}>
