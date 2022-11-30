@@ -32,14 +32,6 @@
      justify-content: right;
      z-index: 2;
    }
-   .turnBackNav{
- /*     background-color: aliceblue; */
-     height: 100%;
-     display: flex;
-     align-items: center;
-     width: 10vw;
- /*     background-color: aqua; */
-   }
 
 
  .optionsNav{
@@ -54,18 +46,15 @@
  .linkNav{
      font-size: 30px;
      text-decoration: none;
-     color:  #3e4e1d;
+     color:  #000;
      font-weight: 500;
      transition-duration: 0.5s;
      
  }
- .arrowNav:hover{
-     color:#6A8532;
-     cursor: pointer;
- }
+
  
  .linkNav:hover{
-     color: #6A8532;
+     color: #fff;
      cursor: pointer;
  }
 

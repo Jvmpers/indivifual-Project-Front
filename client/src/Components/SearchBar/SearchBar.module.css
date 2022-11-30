@@ -30,12 +30,13 @@
     border: 0px;
     background-color: transparent;
     color:#000;
+    transition-duration: 1s;
   
 }
 .searchButton:hover{
     /* border-bottom: 2px solid #8B5E34; */
     cursor: pointer;
-    color:#EB5E28;
+    color:#f8f9fa;
     /* text-decoration:double; */
   }
   @media (max-width:650px) {
